@@ -1,0 +1,9 @@
+package factoryMethodPattern;
+
+public class SamsungCamera implements Camera {
+
+    @Override
+    public void snapShot() {
+        System.out.println("10배속으로 찍기");
+    }
+}
