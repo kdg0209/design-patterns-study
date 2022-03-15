@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public interface Battery {
+public abstract class Battery {
 
-    void power();
+    abstract void power();
 }

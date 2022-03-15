@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class AppleCamera implements Camera {
+public class AppleCamera extends Camera {
 
     @Override
     public void snapShot() {

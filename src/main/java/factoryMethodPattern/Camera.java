@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public interface Camera {
+public abstract class Camera {
 
-    void snapShot();
+   abstract void snapShot();
 }

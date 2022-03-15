@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class SamsungCamera implements Camera {
+public class SamsungCamera extends Camera {
 
     @Override
     public void snapShot() {

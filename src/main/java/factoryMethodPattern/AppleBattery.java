@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class AppleBattery implements Battery {
+public class AppleBattery extends Battery {
 
     @Override
     public void power() {

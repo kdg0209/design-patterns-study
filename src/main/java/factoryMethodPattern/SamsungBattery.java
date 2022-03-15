@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class SamsungBattery implements Battery {
+public class SamsungBattery extends Battery {
 
     @Override
     public void power() {

@@ -1,6 +1,6 @@
 package factoryMethodPattern;
 
-public class SmartPhoneFactory implements SmartPhone {
+public class SmartPhoneFactory extends SmartPhone {
 
     @Override
     public Battery createBattery(SmartPhoneType type) {
@@ -15,7 +15,6 @@ public class SmartPhoneFactory implements SmartPhone {
                 break;
         }
 
-        battery.power();
         return battery;
     }
 
@@ -30,7 +29,6 @@ public class SmartPhoneFactory implements SmartPhone {
                 camera = new SamsungCamera();
                 break;
         }
-        camera.snapShot();
         return camera;
     }
 }

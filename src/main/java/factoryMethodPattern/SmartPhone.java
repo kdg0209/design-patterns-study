@@ -1,7 +1,6 @@
 package factoryMethodPattern;
 
-public interface SmartPhone {
-
-    Battery createBattery(SmartPhoneType type);
-    Camera createCamera(SmartPhoneType type);
+public abstract class SmartPhone {
+    abstract Battery createBattery(SmartPhoneType type);
+    abstract Camera createCamera(SmartPhoneType type);
 }
