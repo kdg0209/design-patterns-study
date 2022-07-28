@@ -13,5 +13,6 @@ public class Client {
         // 빠른배 만들 준비 중
         // 이순신님 빠른배 다 만들었습니다.
         // Ship(name=빠른배, color=black)
+        //
     }
 }
