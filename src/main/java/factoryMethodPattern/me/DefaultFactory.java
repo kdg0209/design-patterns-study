@@ -1,7 +1,7 @@
 package factoryMethodPattern.me;
 
 public class DefaultFactory implements ShipFactory {
-
+//
     @Override
     public Ship creatingShip(Type type, String name, String color, String buyer) {
         validate(name, buyer);
