@@ -7,7 +7,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class Phone {
+public abstract class Phone {
 
     private Company company;
     private Battery battery;

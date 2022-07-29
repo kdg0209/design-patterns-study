@@ -12,13 +12,13 @@ public class Person {
         Phone phone = null;
 
         if (PersonType.TEACHER == personType) {
-            phone = new Phone();
+            phone = new ApplePhone();
             phone.setCompany(new AppleCompany());
             phone.setBattery(new AppleBattery());
             phone.setCamera(new AppleCamera());
         }
         if (PersonType.STUDENT == personType) {
-            phone = new Phone();
+            phone = new SamsungPhone();
             phone.setCompany(new SamsungCompany());
             phone.setBattery(new SamsungBattery());
             phone.setCamera(new SamsungCamera());
